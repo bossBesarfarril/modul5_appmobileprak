@@ -109,7 +109,7 @@ class ModernDosenCard extends StatelessWidget {
                   _buildInfoRow(Icons.email_outlined, dosen.email),
                   const SizedBox(height: 4),
                   _buildInfoRow(Icons.location_on_outlined,
-                      '${dosen.address.street}, ${dosen.address.city}'),
+                      '${dosen.city}, ${dosen.city}'),
                 ],
               ),
             ),

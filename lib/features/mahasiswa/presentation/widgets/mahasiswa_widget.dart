@@ -104,7 +104,7 @@ class MahasiswaCard extends StatelessWidget {
                   const SizedBox(height: 4),
                   _buildInfoRow(Icons.email_outlined, mahasiswa.email),
                   const SizedBox(height: 4),
-                  _buildInfoRow(Icons.comment_outlined, mahasiswa.body),
+                  _buildInfoRow(Icons.comment_outlined, mahasiswa.email),
                 ],
               ),
             ),
